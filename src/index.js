@@ -23,7 +23,7 @@ delay(1500).then(logger); // Resolved after 1500ms */
  
   
  //задача2
- /* const users = [
+ const users = [
   { name: 'Mango', active: true },
   { name: 'Poly', active: false },
   { name: 'Ajax', active: true },
@@ -46,10 +46,10 @@ delay(1500).then(logger); // Resolved after 1500ms */
 
 
 toggleUserState(users, 'Mango').then(logger);
-toggleUserState(users, 'Lux').then(logger); */
+toggleUserState(users, 'Lux').then(logger);
 
  //задача 3
- /* const randomIntegerFromInterval = (min, max) => {
+ const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
@@ -83,7 +83,7 @@ makeTransaction({ id: 72, amount: 75 })
   .catch(logError);
 makeTransaction({ id: 73, amount: 100 })
   .then(logSuccess)
-  .catch(logError); */
+  .catch(logError);
 
 
 
